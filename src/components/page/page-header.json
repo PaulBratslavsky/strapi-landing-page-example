@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_page_page_headers",
+  "info": {
+    "displayName": "PageHeader",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "subText": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "Link": {
+      "displayName": "Link",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.link"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

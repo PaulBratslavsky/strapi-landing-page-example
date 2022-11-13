@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_page_contents",
+  "info": {
+    "displayName": "PageContent",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Content": {
+      "displayName": "Content",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.content"
+    }
+  }
+}

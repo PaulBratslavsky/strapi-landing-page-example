@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_benefits",
+  "info": {
+    "displayName": "Benefits",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

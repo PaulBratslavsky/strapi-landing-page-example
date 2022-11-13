@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_pricings",
+  "info": {
+    "displayName": "Pricing",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tear": {
+      "type": "string"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "Link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.link"
+    },
+    "Benefit": {
+      "displayName": "Benefits",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.benefits"
+    },
+    "price": {
+      "type": "string"
+    }
+  }
+}

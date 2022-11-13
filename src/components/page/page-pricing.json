@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_page_pricings",
+  "info": {
+    "displayName": "PagePricing",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Price": {
+      "displayName": "Pricing",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.pricing"
+    }
+  }
+}
